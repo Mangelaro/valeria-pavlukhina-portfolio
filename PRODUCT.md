@@ -27,7 +27,8 @@ web
 - Студия: Пласт, ул. Октябрьская, 83.
 - WhatsApp: +7 952 525-85-75. Telegram: @pavlukhina_valery.
 - Первая версия без оплаты, личного кабинета и календаря записи.
-- GitHub-репозиторий и удалённый origin пока не заданы.
+- GitHub: https://github.com/Mangelaro/valeria-pavlukhina-portfolio, основная ветка main.
+- Production: https://valeria-pavlukhina-portfolio.vercel.app/. Публикация из файлов через API; автопубликация из GitHub пока не настроена, поскольку аккаунту Vercel требуется GitHub Login Connection.
 
 ## Brand Commitments
 Название: «Валерия Павлухина — твой визажист». Подтверждённый референс: молочный фон, бордовые акценты, рукописные детали, тонкие рамки и крупные фотографии.

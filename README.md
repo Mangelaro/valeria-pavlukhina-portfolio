@@ -19,7 +19,11 @@ npm run dev
 3. Выбрать Deploy from a branch, свою основную ветку и папку `/ (root)`, сохранить.
 4. Дождаться публикации; GitHub покажет адрес сайта в разделе Pages.
 
-Удалённый репозиторий пока не подключён. Сайт не опубликован.
+Сайт опубликован: https://valeria-pavlukhina-portfolio.vercel.app/
+
+Исходники: https://github.com/Mangelaro/valeria-pavlukhina-portfolio
+
+Vercel: проект `valeria-pavlukhina-portfolio`, production. Текущая версия опубликована напрямую через API из файлов сайта. Автоматическая публикация из GitHub пока не подключена: в настройках аккаунта Vercel требуется добавить GitHub Login Connection, затем связать проект с репозиторием. До этого обновления репозитория сами не меняют опубликованный сайт.
 
 ## Обновление
 
