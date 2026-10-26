@@ -1,0 +1,16 @@
+const fs = require('node:fs');
+const path = require('node:path');
+const assert = require('node:assert/strict');
+const root = path.resolve(__dirname, '..');
+const html = fs.readFileSync(path.join(root, 'index.html'), 'utf8');
+const css = fs.readFileSync(path.join(root, 'styles.css'), 'utf8');
+const ids = [...html.matchAll(/\bid="([^"]+)"/g)].map(match => match[1]);
+assert.equal(new Set(ids).size, ids.length, 'Duplicate element IDs');
+for (const [, target] of html.matchAll(/href="#([^"]+)"/g)) assert(ids.includes(target), `Missing anchor ${target}`);
+for (const [, asset] of html.matchAll(/(?:src|href|data-image)="((?:assets\/|styles\.|script\.)[^"]+)"/g)) assert(fs.existsSync(path.join(root, asset)), `Missing asset ${asset}`);
+for (const [, asset] of css.matchAll(/url\('([^']+)'\)/g)) assert(fs.existsSync(path.join(root, asset)), `Missing font ${asset}`);
+assert(html.includes('79525258575'), 'WhatsApp contact missing');
+assert(html.includes('pavlukhina_valery'), 'Telegram contact missing');
+assert(html.includes('Октябрьская, 83'), 'Studio address missing');
+for (const price of ['3 000 ₽', '5 000 ₽', '13 000 ₽', '1 500 ₽', 'По запросу']) assert(html.includes(price), `Missing price ${price}`);
+console.log('OK: assets, fonts, unique IDs, page anchors, contacts, address and prices');

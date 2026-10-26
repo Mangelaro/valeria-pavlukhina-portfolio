@@ -1,0 +1,6 @@
+node_modules/
+.impeccable/review/
+*.log
+.DS_Store
+dist/
+.vercel/

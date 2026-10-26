@@ -1,0 +1,11 @@
+{
+  "name": "valeria-pavlukhina-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Портфолио визажиста Валерии Павлухиной",
+  "scripts": {
+    "build": "node tools/build.cjs",
+    "dev": "node tools/serve.cjs",
+    "check": "node tools/check.cjs"
+  }
+}
