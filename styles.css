@@ -75,3 +75,6 @@ html{color-scheme:light}.button-solid,.mobile-booking,.skip-link{background:var(
 .lightbox-close:focus{outline:none}
 .lightbox-close{border-radius:50%}
 .lightbox[data-keyboard="true"] .lightbox-close:focus-visible{outline:2px solid var(--wine);outline-offset:-6px}
+
+.service-steps{font-size:12px;color:var(--muted);max-width:48ch;padding-left:20px;margin:12px 0 0}.service-steps li+li{margin-top:12px}
+@media(max-width:760px){.service-steps{font-size:11px}}
