@@ -45,6 +45,7 @@ html{color-scheme:light}.button-solid,.mobile-booking,.skip-link{background:var(
   .hero{grid-template-rows:auto auto auto 1fr auto;row-gap:16px}
   .hero-underline{bottom:5px;height:10px}
   .hero-copy .location{margin-top:0}
+  .hero-description,.hero-copy .button,.hero-copy .location{transform:translateY(28px)}
   .hero-visual{padding-right:18px;padding-bottom:24px}
   .portrait-frame{padding-bottom:12px}
   .portrait-frame:before{inset:10px -1px -21px 13px;transform:rotate(7deg)}
