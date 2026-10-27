@@ -1,85 +1,105 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-10-27T13:06:45.1125898Z",
+  "generatedAt": "2026-10-27T13:10:46.450Z",
   "title": "Design System: Валерия Павлухина",
   "extensions": {
     "colorMeta": {
       "paper": {
         "role": "neutral",
-        "displayName": "Светло-серая основа",
+        "displayName": "Тёмный графит",
         "tonalRamp": [
-          "oklch(15.00% 0.00288 264.54)",
-          "oklch(26.43% 0.00288 264.54)",
-          "oklch(37.86% 0.00288 264.54)",
-          "oklch(49.29% 0.00288 264.54)",
-          "oklch(60.71% 0.00288 264.54)",
-          "oklch(72.14% 0.00288 264.54)",
-          "oklch(83.57% 0.00288 264.54)",
-          "oklch(95.00% 0.00288 264.54)"
+          "oklch(15.00% 0.00803 274.53)",
+          "oklch(26.43% 0.00803 274.53)",
+          "oklch(37.86% 0.00803 274.53)",
+          "oklch(49.29% 0.00803 274.53)",
+          "oklch(60.71% 0.00803 274.53)",
+          "oklch(72.14% 0.00803 274.53)",
+          "oklch(83.57% 0.00803 274.53)",
+          "oklch(95.00% 0.00803 274.53)"
         ]
       },
       "ink": {
         "role": "neutral",
-        "displayName": "Прохладный графит",
+        "displayName": "Мягкий белый",
         "tonalRamp": [
-          "oklch(15.00% 0.00954 268.34)",
-          "oklch(26.43% 0.00954 268.34)",
-          "oklch(37.86% 0.00954 268.34)",
-          "oklch(49.29% 0.00954 268.34)",
-          "oklch(60.71% 0.00954 268.34)",
-          "oklch(72.14% 0.00954 268.34)",
-          "oklch(83.57% 0.00954 268.34)",
-          "oklch(95.00% 0.00954 268.34)"
+          "oklch(15.00% 0.00413 91.45)",
+          "oklch(26.43% 0.00413 91.45)",
+          "oklch(37.86% 0.00413 91.45)",
+          "oklch(49.29% 0.00413 91.45)",
+          "oklch(60.71% 0.00413 91.45)",
+          "oklch(72.14% 0.00413 91.45)",
+          "oklch(83.57% 0.00413 91.45)",
+          "oklch(95.00% 0.00413 91.45)"
         ]
       },
       "muted": {
         "role": "neutral",
-        "displayName": "Приглушённый серый",
+        "displayName": "Светлый приглушённый серый",
         "tonalRamp": [
-          "oklch(15.00% 0.01221 261.77)",
-          "oklch(26.43% 0.01221 261.77)",
-          "oklch(37.86% 0.01221 261.77)",
-          "oklch(49.29% 0.01221 261.77)",
-          "oklch(60.71% 0.01221 261.77)",
-          "oklch(72.14% 0.01221 261.77)",
-          "oklch(83.57% 0.01221 261.77)",
-          "oklch(95.00% 0.01221 261.77)"
+          "oklch(15.00% 0.01011 273.32)",
+          "oklch(26.43% 0.01011 273.32)",
+          "oklch(37.86% 0.01011 273.32)",
+          "oklch(49.29% 0.01011 273.32)",
+          "oklch(60.71% 0.01011 273.32)",
+          "oklch(72.14% 0.01011 273.32)",
+          "oklch(83.57% 0.01011 273.32)",
+          "oklch(95.00% 0.01011 273.32)"
         ]
       },
       "wine": {
         "role": "primary",
-        "displayName": "Насыщенный красный"
+        "displayName": "Светлый алый",
+        "tonalRamp": [
+          "oklch(15.00% 0.21170 27.29)",
+          "oklch(26.43% 0.21170 27.29)",
+          "oklch(37.86% 0.21170 27.29)",
+          "oklch(49.29% 0.21170 27.29)",
+          "oklch(60.71% 0.21170 27.29)",
+          "oklch(72.14% 0.21170 27.29)",
+          "oklch(83.57% 0.21170 27.29)",
+          "oklch(95.00% 0.21170 27.29)"
+        ]
       },
       "wine-deep": {
         "role": "primary",
-        "displayName": "Тёмный красный"
+        "displayName": "Светлый алый при наведении",
+        "tonalRamp": [
+          "oklch(15.00% 0.17000 25.52)",
+          "oklch(26.43% 0.17000 25.52)",
+          "oklch(37.86% 0.17000 25.52)",
+          "oklch(49.29% 0.17000 25.52)",
+          "oklch(60.71% 0.17000 25.52)",
+          "oklch(72.14% 0.17000 25.52)",
+          "oklch(83.57% 0.17000 25.52)",
+          "oklch(95.00% 0.17000 25.52)"
+        ]
       },
       "line": {
         "role": "neutral",
-        "displayName": "Тонкая серая линия",
+        "displayName": "Серая линия",
         "tonalRamp": [
-          "oklch(15.00% 0.00764 260.73)",
-          "oklch(26.43% 0.00764 260.73)",
-          "oklch(37.86% 0.00764 260.73)",
-          "oklch(49.29% 0.00764 260.73)",
-          "oklch(60.71% 0.00764 260.73)",
-          "oklch(72.14% 0.00764 260.73)",
-          "oklch(83.57% 0.00764 260.73)",
-          "oklch(95.00% 0.00764 260.73)"
+          "oklch(15.00% 0.01401 269.33)",
+          "oklch(26.43% 0.01401 269.33)",
+          "oklch(37.86% 0.01401 269.33)",
+          "oklch(49.29% 0.01401 269.33)",
+          "oklch(60.71% 0.01401 269.33)",
+          "oklch(72.14% 0.01401 269.33)",
+          "oklch(83.57% 0.01401 269.33)",
+          "oklch(95.00% 0.01401 269.33)"
         ]
       },
       "rose": {
         "role": "neutral",
-        "displayName": "Серебристо-серая поверхность",
+        "displayName": "Приподнятая тёмная поверхность",
         "tonalRamp": [
-          "oklch(15.00% 0.00581 264.53)",
-          "oklch(26.43% 0.00581 264.53)",
-          "oklch(37.86% 0.00581 264.53)",
-          "oklch(49.29% 0.00581 264.53)",
-          "oklch(60.71% 0.00581 264.53)",
-          "oklch(72.14% 0.00581 264.53)",
-          "oklch(83.57% 0.00581 264.53)",
-          "oklch(95.00% 0.00581 264.53)"
+          "oklch(15.00% 0.01155 270.95)",
+          "oklch(26.43% 0.01155 270.95)",
+          "oklch(37.86% 0.01155 270.95)",
+          "oklch(49.29% 0.01155 270.95)",
+          "oklch(60.71% 0.01155 270.95)",
+          "oklch(72.14% 0.01155 270.95)",
+          "oklch(83.57% 0.01155 270.95)",
+          "oklch(95.00% 0.01155 270.95)"
         ]
       },
       "backdrop": {
@@ -94,6 +114,34 @@
           "oklch(72.14% 0.01080 260.68 / .85)",
           "oklch(83.57% 0.01080 260.68 / .85)",
           "oklch(95.00% 0.01080 260.68 / .85)"
+        ]
+      },
+      "cta": {
+        "role": "primary",
+        "displayName": "Насыщенный красный",
+        "tonalRamp": [
+          "oklch(15.00% 0.22458 28.65)",
+          "oklch(26.43% 0.22458 28.65)",
+          "oklch(37.86% 0.22458 28.65)",
+          "oklch(49.29% 0.22458 28.65)",
+          "oklch(60.71% 0.22458 28.65)",
+          "oklch(72.14% 0.22458 28.65)",
+          "oklch(83.57% 0.22458 28.65)",
+          "oklch(95.00% 0.22458 28.65)"
+        ]
+      },
+      "cta-hover": {
+        "role": "primary",
+        "displayName": "Тёмный насыщенный красный",
+        "tonalRamp": [
+          "oklch(15.00% 0.20289 28.81)",
+          "oklch(26.43% 0.20289 28.81)",
+          "oklch(37.86% 0.20289 28.81)",
+          "oklch(49.29% 0.20289 28.81)",
+          "oklch(60.71% 0.20289 28.81)",
+          "oklch(72.14% 0.20289 28.81)",
+          "oklch(83.57% 0.20289 28.81)",
+          "oklch(95.00% 0.20289 28.81)"
         ]
       }
     },
@@ -172,7 +220,7 @@
       "refersTo": "button-solid",
       "description": "Основное действие записи и контакт WhatsApp.",
       "html": "<a class=\"ds-button-solid\" href=\"#contact\">Записаться на макияж <span aria-hidden=\"true\">↗</span></a>",
-      "css": ".ds-button-solid{display:inline-flex;align-items:center;justify-content:space-between;gap:30px;min-height:54px;padding:15px 24px;font:12px/1.75 var(--sans,Manrope,Arial,sans-serif);border:1px solid var(--wine,#da1010);text-decoration:none;transition:background .2s,color .2s;background:var(--wine,#da1010);color:var(--paper,#f0f1f3)}.ds-button-solid span{font-size:20px;line-height:1}.ds-button-solid:hover{background:var(--wine-deep,#bd0909)}.ds-button-solid:focus-visible{outline:2px solid var(--wine,#da1010);outline-offset:6px}@media(prefers-reduced-motion:reduce){a,button{transition:none!important;animation:none!important}}"
+      "css": ".ds-button-solid{display:inline-flex;align-items:center;justify-content:space-between;gap:30px;min-height:54px;padding:15px 24px;font:12px/1.75 var(--sans,Manrope,Arial,sans-serif);border:1px solid var(--wine,#ff5148);text-decoration:none;transition:background .2s,color .2s;background:var(--cta,#da1010);color:var(--ink,#f3f2ef)}.ds-button-solid span{font-size:20px;line-height:1}.ds-button-solid:hover{background:var(--cta-hover,#bd0909)}.ds-button-solid:focus-visible{outline:2px solid var(--wine,#ff5148);outline-offset:6px}@media(prefers-reduced-motion:reduce){a,button{transition:none!important;animation:none!important}}"
     },
     {
       "name": "Контурная кнопка",
@@ -180,7 +228,7 @@
       "refersTo": "button-outline",
       "description": "Второй контактный канал — Telegram.",
       "html": "<a class=\"ds-button-outline\" href=\"https://t.me/pavlukhina_valery\">Написать в Telegram <span aria-hidden=\"true\">↗</span></a>",
-      "css": ".ds-button-outline{display:inline-flex;align-items:center;justify-content:space-between;gap:30px;min-height:54px;padding:15px 24px;font:12px/1.75 var(--sans,Manrope,Arial,sans-serif);border:1px solid var(--wine,#da1010);text-decoration:none;transition:background .2s,color .2s;background:transparent;color:var(--wine,#da1010)}.ds-button-outline span{font-size:20px;line-height:1}.ds-button-outline:hover{background:var(--wine,#da1010);color:var(--paper,#f0f1f3)}.ds-button-outline:focus-visible{outline:2px solid var(--wine,#da1010);outline-offset:6px}@media(prefers-reduced-motion:reduce){a,button{transition:none!important;animation:none!important}}"
+      "css": ".ds-button-outline{display:inline-flex;align-items:center;justify-content:space-between;gap:30px;min-height:54px;padding:15px 24px;font:12px/1.75 var(--sans,Manrope,Arial,sans-serif);border:1px solid var(--wine,#ff5148);text-decoration:none;transition:background .2s,color .2s;background:transparent;color:var(--wine,#ff5148)}.ds-button-outline span{font-size:20px;line-height:1}.ds-button-outline:hover{background:var(--cta-hover,#bd0909);color:var(--ink,#f3f2ef)}.ds-button-outline:focus-visible{outline:2px solid var(--wine,#ff5148);outline-offset:6px}@media(prefers-reduced-motion:reduce){a,button{transition:none!important;animation:none!important}}"
     },
     {
       "name": "Текстовое действие",
@@ -188,14 +236,14 @@
       "refersTo": "text-link",
       "description": "Подчёркнутая ссылка обсуждения образа и просмотра оригинала отзыва.",
       "html": "<a class=\"ds-text-link\" href=\"#contact\">Обсудим твой образ <span aria-hidden=\"true\">↗</span></a>",
-      "css": ".ds-text-link{display:inline-flex;gap:26px;align-items:center;border:0;border-bottom:1px solid var(--wine,#da1010);padding:0 0 6px;background:transparent;color:var(--wine,#da1010);font:12px/1.6 var(--sans,Manrope,Arial,sans-serif);text-decoration:none}.ds-text-link:hover{color:var(--wine-deep,#bd0909);border-color:var(--wine-deep,#bd0909)}.ds-text-link:focus-visible{outline:2px solid var(--wine,#da1010);outline-offset:6px}"
+      "css": ".ds-text-link{display:inline-flex;gap:26px;align-items:center;border:0;border-bottom:1px solid var(--wine,#ff5148);padding:0 0 6px;background:transparent;color:var(--wine,#ff5148);font:12px/1.6 var(--sans,Manrope,Arial,sans-serif);text-decoration:none}.ds-text-link:hover{color:var(--wine-deep,#ff756d);border-color:var(--wine-deep,#ff756d)}.ds-text-link:focus-visible{outline:2px solid var(--wine,#ff5148);outline-offset:6px}"
     },
     {
       "name": "Навигация",
       "kind": "nav",
       "description": "Горизонтальные якоря, запись отмечена красным подчёркиванием.",
       "html": "<nav class=\"ds-nav\" aria-label=\"Основная навигация\"><a class=\"ds-nav-link\" href=\"#portfolio\">Работы</a><a class=\"ds-nav-link\" href=\"#services\">Услуги и цены</a><a class=\"ds-nav-link ds-nav-contact\" href=\"#contact\">Записаться ↗</a></nav>",
-      "css": ".ds-nav{display:flex;align-items:center;gap:29px;font:12px/1.75 var(--sans,Manrope,Arial,sans-serif);color:var(--ink,#292b30)}.ds-nav-link{padding-block:12px;color:inherit;text-decoration:none}.ds-nav-link:hover{color:var(--wine,#da1010)}.ds-nav-contact{border-bottom:1px solid var(--wine,#da1010);color:var(--wine,#da1010)}.ds-nav-link:focus-visible{outline:2px solid var(--wine,#da1010);outline-offset:6px}"
+      "css": ".ds-nav{display:flex;align-items:center;gap:29px;font:12px/1.75 var(--sans,Manrope,Arial,sans-serif);color:var(--ink,#f3f2ef)}.ds-nav-link{padding-block:12px;color:inherit;text-decoration:none}.ds-nav-link:hover{color:var(--wine,#ff5148)}.ds-nav-contact{border-bottom:1px solid var(--wine,#ff5148);color:var(--wine,#ff5148)}.ds-nav-link:focus-visible{outline:2px solid var(--wine,#ff5148);outline-offset:6px}"
     },
     {
       "name": "Строка услуги",
@@ -203,7 +251,7 @@
       "refersTo": "service",
       "description": "Открытая строка с названием, ценой, пояснением и ссылкой.",
       "html": "<article class=\"ds-service\"><div class=\"ds-service-top\"><h3 class=\"ds-service-title\">Макияж для себя</h3><span class=\"ds-service-price\">5 000 ₽</span></div><p class=\"ds-service-description\">Индивидуальный урок. Онлайн или офлайн.</p><a class=\"ds-service-link\" href=\"https://t.me/pavlukhina_valery\">Узнать об уроке ↗</a></article>",
-      "css": ".ds-service{border-top:1px solid var(--line,#cdd0d5);padding-block:22px;font-family:var(--sans,Manrope,Arial,sans-serif)}.ds-service-top{display:flex;gap:20px;justify-content:space-between;align-items:baseline}.ds-service-title{margin:0;color:var(--ink,#292b30);font:500 27px/1.15 var(--serif,Cormorant,Georgia,serif)}.ds-service-price{color:var(--wine,#da1010);font-size:18px;white-space:nowrap;letter-spacing:-.025em;font-variant-numeric:tabular-nums}.ds-service-description{font-size:12px;line-height:1.75;color:var(--muted,#5e6269);margin:9px 0 0;max-width:48ch}.ds-service-link{font-size:11px;line-height:1.75;color:var(--wine,#da1010);display:inline-flex;margin-top:12px;text-decoration:none}.ds-service-link:hover{text-decoration:underline}.ds-service-link:focus-visible{outline:2px solid var(--wine,#da1010);outline-offset:6px}"
+      "css": ".ds-service{border-top:1px solid var(--line,#44474f);padding-block:22px;font-family:var(--sans,Manrope,Arial,sans-serif)}.ds-service-top{display:flex;gap:20px;justify-content:space-between;align-items:baseline}.ds-service-title{margin:0;color:var(--ink,#f3f2ef);font:500 27px/1.15 var(--serif,Cormorant,Georgia,serif)}.ds-service-price{color:var(--wine,#ff5148);font-size:18px;white-space:nowrap;letter-spacing:-.025em;font-variant-numeric:tabular-nums}.ds-service-description{font-size:12px;line-height:1.75;color:var(--muted,#b6b8bf);margin:9px 0 0;max-width:48ch}.ds-service-link{font-size:11px;line-height:1.75;color:var(--wine,#ff5148);display:inline-flex;margin-top:12px;text-decoration:none}.ds-service-link:hover{text-decoration:underline}.ds-service-link:focus-visible{outline:2px solid var(--wine,#ff5148);outline-offset:6px}"
     },
     {
       "name": "Отзыв",
@@ -211,29 +259,29 @@
       "refersTo": "review",
       "description": "Крупная антиквенная цитата с тонкой красной линией и ссылкой на оригинал.",
       "html": "<figure class=\"ds-review\"><blockquote class=\"ds-review-quote\">«Макияж продержался до самого конца. Ни разу не пожалела, что обратилась к тебе. Свадьба прошла на ура».</blockquote><figcaption class=\"ds-review-caption\">Макияж на свадьбу</figcaption><button class=\"ds-review-link\" type=\"button\">Читать оригинал ↗</button></figure>",
-      "css": ".ds-review{margin:0;border-top:1px solid var(--wine,#da1010);padding-top:24px;display:flex;flex-direction:column;align-items:start;color:var(--ink,#292b30)}.ds-review-quote{margin:0;font:400 28px/1.28 var(--serif,Cormorant,Georgia,serif)}.ds-review-caption{color:var(--muted,#5e6269);font:10px/1.75 var(--sans,Manrope,Arial,sans-serif);margin:22px 0}.ds-review-link{display:inline-flex;gap:26px;align-items:center;border:0;border-bottom:1px solid var(--wine,#da1010);padding:0 0 6px;background:transparent;color:var(--wine,#da1010);font:10px/1.6 var(--sans,Manrope,Arial,sans-serif);cursor:pointer}.ds-review-link:hover{color:var(--wine-deep,#bd0909);border-color:var(--wine-deep,#bd0909)}.ds-review-link:focus-visible{outline:2px solid var(--wine,#da1010);outline-offset:6px}"
+      "css": ".ds-review{margin:0;border-top:1px solid var(--wine,#ff5148);padding-top:24px;display:flex;flex-direction:column;align-items:start;color:var(--ink,#f3f2ef)}.ds-review-quote{margin:0;font:400 28px/1.28 var(--serif,Cormorant,Georgia,serif)}.ds-review-caption{color:var(--muted,#b6b8bf);font:10px/1.75 var(--sans,Manrope,Arial,sans-serif);margin:22px 0}.ds-review-link{display:inline-flex;gap:26px;align-items:center;border:0;border-bottom:1px solid var(--wine,#ff5148);padding:0 0 6px;background:transparent;color:var(--wine,#ff5148);font:10px/1.6 var(--sans,Manrope,Arial,sans-serif);cursor:pointer}.ds-review-link:hover{color:var(--wine-deep,#ff756d);border-color:var(--wine-deep,#ff756d)}.ds-review-link:focus-visible{outline:2px solid var(--wine,#ff5148);outline-offset:6px}"
     },
     {
-      "name": "Светло-серый фон с сиянием",
+      "name": "Тёмный фон со слабым сиянием",
       "kind": "custom",
-      "description": "Статичный белый радиальный и диагональный отблеск поверх светло-серой основы; fixed на desktop, scroll/no-repeat до 760px.",
-      "html": "<div class=\"ds-silver-surface\"></div>",
-      "css": ".ds-silver-surface{min-height:240px;background-color:var(--paper,#f0f1f3);background-image:radial-gradient(ellipse at 18% 8%,rgb(255 255 255 / .85),transparent 58%),linear-gradient(115deg,transparent 25%,rgb(255 255 255 / .42) 48%,transparent 73%);background-attachment:fixed}@media(max-width:760px){.ds-silver-surface{background-attachment:scroll;background-size:100% 100vh;background-repeat:no-repeat}}"
+      "description": "Статичный слабый белый радиальный и диагональный отблеск поверх графитовой основы; fixed на desktop, scroll/no-repeat до 760px.",
+      "html": "<div class=\"ds-charcoal-surface\"></div>",
+      "css": ".ds-charcoal-surface{min-height:240px;background-color:var(--paper,#17181c);background-image:radial-gradient(ellipse at 18% 8%,rgb(255 255 255 / .035),transparent 58%),linear-gradient(115deg,transparent 25%,rgb(255 255 255 / .02) 48%,transparent 73%);background-attachment:fixed}@media(max-width:760px){.ds-charcoal-surface{background-attachment:scroll;background-size:100% 100vh;background-repeat:no-repeat}}"
     }
   ],
   "narrative": {
     "northStar": "Личное портфолио с живой подписью",
-    "overview": "Светло-серый фон с деликатным сиянием, насыщенный красный и реальные крупные фотографии создают спокойный личный мир визажиста. Крупная антиква ведёт рассказ, рукописные слова добавляют голос Валерии, а тонкие линии удерживают композицию.\n\nСистема просторная и плоская: образ раскрывается через лица, паузы и типографику. Текущая палитра согласована пользователем: светло-серый фон с белым отблеском и красный акцент. Рукописные детали и смещённые тонкие рамки сохраняют характер портфолио.",
+    "overview": "Тёмный графитовый фон со слабым сиянием, алые акценты и реальные крупные фотографии создают спокойный личный мир визажиста. Крупная антиква ведёт рассказ, рукописные слова добавляют голос Валерии, а тонкие линии удерживают композицию.\n\nСистема просторная и плоская: образ раскрывается через лица, паузы и типографику. По запросу пользователя текущая версия использует тёмный фон, светлый текст и красные действия. Рукописные детали и смещённые тонкие рамки сохраняют характер портфолио.",
     "keyCharacteristics": [
-      "Светло-серый фон с мягким белым отблеском и серебристо-серые поверхности.",
-      "Красный акцент для действия, цены и смыслового выделения.",
+      "Графитовый фон со слабым белым отблеском и более светлые тёмные поверхности.",
+      "Светлый алый для текста и тонких деталей, насыщенный красный для кнопок.",
       "Крупная антиква, спокойный гротеск и отдельные рукописные слова.",
       "Реальные фотографии с тонкими смещёнными рамками.",
       "Прямоугольные действия и открытые списки с разделителями."
     ],
     "rules": [],
     "dos": [
-      "**Do** сохранять светло-серый фон с мягким сиянием, красные действия и тонкие линии.",
+      "**Do** сохранять тёмный фон со слабым сиянием, светлый текст и красные действия и тонкие линии.",
       "**Do** отдавать крупный масштаб реальным фотографиям и антикве.",
       "**Do** использовать рукописный шрифт для отдельных слов и коротких подписей.",
       "**Do** сохранять видимый клавиатурный фокус и отключение движения при reduced-motion."
