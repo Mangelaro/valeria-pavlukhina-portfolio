@@ -42,8 +42,9 @@ function changeImage(step) {
   renderImage();
 }
 document.querySelectorAll('[data-image], [data-images]').forEach(button => {
-  button.addEventListener('click', () => {
+  button.addEventListener('click', event => {
     imageTrigger = button;
+    lightbox.dataset.keyboard = String(event.detail === 0);
     activeImages = button.dataset.images ? button.dataset.images.split('|') : [button.dataset.image];
     imageIndex = 0;
     galleryNavigation.hidden = activeImages.length < 2;
@@ -56,6 +57,7 @@ document.querySelectorAll('[data-image], [data-images]').forEach(button => {
 document.querySelector('.lightbox-previous').addEventListener('click', () => changeImage(-1));
 document.querySelector('.lightbox-next').addEventListener('click', () => changeImage(1));
 lightbox.addEventListener('keydown', event => {
+  if (event.key === 'Tab') lightbox.dataset.keyboard = 'true';
   if (activeImages.length < 2 || !['ArrowLeft', 'ArrowRight'].includes(event.key)) return;
   event.preventDefault();
   changeImage(event.key === 'ArrowRight' ? 1 : -1);

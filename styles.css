@@ -70,3 +70,8 @@ html{color-scheme:light}.button-solid,.mobile-booking,.skip-link{background:var(
 .lightbox-error{text-align:center;font-size:12px;margin-top:14px}
 .lightbox-retry{border:0;background:transparent;text-decoration:underline;color:var(--wine);padding:8px}
 @media(max-width:760px){.zoom-label{gap:8px}.lightbox img{max-height:62dvh}.lightbox-navigation{margin-top:12px}}
+
+/* Keep dialog autofocus quiet for touch; keyboard focus stays inside the close target. */
+.lightbox-close:focus{outline:none}
+.lightbox-close{border-radius:50%}
+.lightbox[data-keyboard="true"] .lightbox-close:focus-visible{outline:2px solid var(--wine);outline-offset:-6px}
