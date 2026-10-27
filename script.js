@@ -26,16 +26,54 @@ const lightbox = document.querySelector('.lightbox');
 const lightboxImage = document.querySelector('#lightbox-image');
 const lightboxCaption = document.querySelector('#lightbox-caption');
 let imageTrigger;
-document.querySelectorAll('[data-image]').forEach(button => {
+let activeImages = [];
+let imageIndex = 0;
+const galleryNavigation = document.querySelector('.lightbox-navigation');
+const imageCounter = document.querySelector('.lightbox-counter');
+const imageError = document.querySelector('.lightbox-error');
+function renderImage() {
+  imageError.hidden = true;
+  lightboxImage.src = activeImages[imageIndex];
+  lightboxImage.alt = `${imageTrigger.dataset.caption}${activeImages.length > 1 ? ` — фото ${imageIndex + 1}` : ''}`;
+  imageCounter.textContent = `${imageIndex + 1} / ${activeImages.length}`;
+}
+function changeImage(step) {
+  imageIndex = (imageIndex + step + activeImages.length) % activeImages.length;
+  renderImage();
+}
+document.querySelectorAll('[data-image], [data-images]').forEach(button => {
   button.addEventListener('click', () => {
     imageTrigger = button;
-    lightboxImage.src = button.dataset.image;
-    lightboxImage.alt = button.dataset.caption;
+    activeImages = button.dataset.images ? button.dataset.images.split('|') : [button.dataset.image];
+    imageIndex = 0;
+    galleryNavigation.hidden = activeImages.length < 2;
+    renderImage();
     lightboxCaption.textContent = button.dataset.caption;
     lightbox.showModal();
     document.body.classList.add('lightbox-open');
   });
 });
+document.querySelector('.lightbox-previous').addEventListener('click', () => changeImage(-1));
+document.querySelector('.lightbox-next').addEventListener('click', () => changeImage(1));
+lightbox.addEventListener('keydown', event => {
+  if (activeImages.length < 2 || !['ArrowLeft', 'ArrowRight'].includes(event.key)) return;
+  event.preventDefault();
+  changeImage(event.key === 'ArrowRight' ? 1 : -1);
+});
+let touchStart;
+lightboxImage.addEventListener('touchstart', event => {
+  touchStart = event.touches.length === 1 ? { x: event.touches[0].clientX, y: event.touches[0].clientY } : null;
+}, { passive: true });
+lightboxImage.addEventListener('touchend', event => {
+  if (!touchStart || activeImages.length < 2) return;
+  const dx = event.changedTouches[0].clientX - touchStart.x;
+  const dy = event.changedTouches[0].clientY - touchStart.y;
+  if (Math.abs(dx) > 45 && Math.abs(dx) > Math.abs(dy) * 1.5) changeImage(dx < 0 ? 1 : -1);
+  touchStart = null;
+}, { passive: true });
+lightboxImage.addEventListener('error', () => { imageError.hidden = false; });
+lightboxImage.addEventListener('load', () => { imageError.hidden = true; });
+document.querySelector('.lightbox-retry').addEventListener('click', renderImage);
 document.querySelector('.lightbox-close').addEventListener('click', () => lightbox.close());
 lightbox.addEventListener('click', event => {
   if (event.target !== lightbox) return;

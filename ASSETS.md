@@ -24,3 +24,25 @@
 Отзывы на странице — сокращённые выдержки из предоставленных скриншотов с нормализованной пунктуацией. Оригиналы доступны по кнопкам. Имена авторов переписки не выдумываются. look-editorial.png оставлен как дополнительный исходный материал.
 
 Шрифты получены из официального репозитория google/fonts: ofl/cormorantgaramond, ofl/manrope, ofl/badscript. Favicon — типографская буква В на бордовом фоне, создан в проекте.
+
+## Категории портфолио — 27 октября 2026
+
+- assets/images/case-eyes-1.jpg — User supplied photograph: C:\Users\tsar\Desktop\фото Лера\IMG_8944.PNG; JPEG quality 90; maximum dimension 1800px; no retouching
+- assets/images/case-eyes-2.jpg — User supplied photograph: C:\Users\tsar\Desktop\фото Лера\IMG_8942.PNG; JPEG quality 90; maximum dimension 1800px; no retouching
+- assets/images/case-eyes-3.jpg — User supplied photograph: C:/Users/tsar/AppData/Local/Temp/codex-clipboard-07546a79-5e02-402d-818f-56e8bad0200f.jpg; JPEG quality 90; maximum dimension 1800px; no retouching
+- assets/images/case-details-1.jpg — User supplied photograph: C:\Users\tsar\Desktop\фото Лера\IMG_8935.PNG; JPEG quality 90; maximum dimension 1800px; no retouching
+- assets/images/case-details-2.jpg — User supplied photograph: C:\Users\tsar\Desktop\фото Лера\IMG_8938.PNG; JPEG quality 90; maximum dimension 1800px; no retouching
+- assets/images/case-details-3.jpg — User supplied photograph: C:\Users\tsar\Desktop\фото Лера\IMG_8939.PNG; JPEG quality 90; maximum dimension 1800px; no retouching
+- assets/images/case-bold-1.jpg — User supplied photograph: C:/Users/tsar/AppData/Local/Temp/codex-clipboard-c1363b9c-41bd-401b-8d6b-f5b933cd9e12.jpg; JPEG quality 90; maximum dimension 1800px; no retouching
+- assets/images/case-bold-2.jpg — User supplied photograph: C:\Users\tsar\Desktop\фото Лера\IMG_1139.JPG; JPEG quality 90; maximum dimension 1800px; no retouching
+- assets/images/case-bold-3.jpg — User supplied photograph: C:\Users\tsar\Desktop\фото Лера\IMG_3601.JPEG; JPEG quality 90; maximum dimension 1800px; no retouching
+- assets/images/case-bold-4.jpg — User supplied photograph: C:\Users\tsar\Desktop\фото Лера\IMG_1101.jpg; JPEG quality 90; maximum dimension 1800px; no retouching
+- assets/images/case-bold-5.jpg — User supplied photograph: C:\Users\tsar\Desktop\фото Лера\IMG_0971.jpg; JPEG quality 90; maximum dimension 1800px; no retouching
+- assets/images/case-tender-1.jpg — User supplied photograph: C:\Users\tsar\Desktop\фото Лера\IMG_2856.JPEG; JPEG quality 90; maximum dimension 1800px; no retouching
+- assets/images/case-tender-2.jpg — User supplied photograph: C:\Users\tsar\Desktop\фото Лера\IMG_2793.JPG; JPEG quality 90; maximum dimension 1800px; no retouching
+- assets/images/case-tender-3.jpg — User supplied photograph: C:\Users\tsar\Desktop\фото Лера\IMG_0035.PNG; JPEG quality 90; maximum dimension 1800px; no retouching
+- assets/images/case-tender-4.jpg — User supplied photograph: C:\Users\tsar\Desktop\фото Лера\IMG_0030.JPEG; JPEG quality 90; maximum dimension 1800px; no retouching
+- assets/images/case-evening-1.jpg — User supplied photograph: C:\Users\tsar\Desktop\фото Лера\IMG_0792.JPG; JPEG quality 90; maximum dimension 1800px; no retouching
+- assets/images/case-evening-2.jpg — User supplied photograph: C:\Users\tsar\Desktop\фото Лера\IMG_0791.JPG; JPEG quality 90; maximum dimension 1800px; no retouching
+- assets/images/case-evening-3.jpg — User supplied photograph: C:\Users\tsar\Desktop\фото Лера\IMG_0220.jpg; JPEG quality 90; maximum dimension 1800px; no retouching
+- assets/images/case-evening-4.jpg — User supplied photograph: C:\Users\tsar\Desktop\фото Лера\IMG_0222.jpg; JPEG quality 90; maximum dimension 1800px; no retouching

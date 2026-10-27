@@ -59,3 +59,14 @@ html{color-scheme:light}.button-solid,.mobile-booking,.skip-link{background:var(
 }
 
 
+
+/* Category galleries keep the existing editorial grid and palette. */
+.lightbox-navigation{display:flex;justify-content:center;align-items:center;gap:24px;margin-top:16px}
+.lightbox-navigation[hidden],.lightbox-error[hidden]{display:none}
+.lightbox-navigation button{display:grid;place-items:center;min-width:44px;min-height:44px;border:1px solid var(--line);background:transparent;color:var(--wine)}
+.lightbox-navigation button:hover{background:var(--rose)}
+.lightbox-counter{min-width:45px;text-align:center;font-size:12px;font-variant-numeric:tabular-nums}
+.lightbox img{max-height:65dvh;min-height:120px;touch-action:pan-y pinch-zoom}
+.lightbox-error{text-align:center;font-size:12px;margin-top:14px}
+.lightbox-retry{border:0;background:transparent;text-decoration:underline;color:var(--wine);padding:8px}
+@media(max-width:760px){.zoom-label{gap:8px}.lightbox img{max-height:62dvh}.lightbox-navigation{margin-top:12px}}
