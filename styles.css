@@ -48,7 +48,7 @@ html{color-scheme:light}.button-solid,.mobile-booking,.skip-link{background:var(
   .hero-visual{padding-right:18px;padding-bottom:24px}
   .portrait-frame{padding-bottom:12px}
   .portrait-frame:before{inset:10px -1px -21px 13px;transform:rotate(7deg)}
-  .portrait-frame figcaption{position:relative;z-index:1;display:table;background:var(--paper);padding:2px 4px;margin-left:-4px}
+  .portrait-frame figcaption{position:relative;z-index:1;display:table;background:transparent;padding:2px 0;margin-left:6px}
   .hero-bottom a .icon-arrow{margin-left:8px}
 }
 @media(max-width:430px){

@@ -143,7 +143,7 @@ components:
 
 ## Elevation & Depth
 
-Система без теней. Глубину дают чередование Paper и Rose, фотографии и смещённые контуры бургунди. У первого портрета контур повёрнут на (4deg), на мобильном (7deg); у фотографии знакомства — (-4deg). На мобильном контур первого портрета имеет inset (10px -1px -21px 13px), рамка фотографии — нижний padding (12px), визуальный блок — padding справа (18px) и снизу (24px). Подпись портрета выведена поверх контура (position: relative; z-index: 1; display: table), с фоном Paper, padding (2px 4px) и margin-left (-4px). Модальный просмотр отделён затемнённым backdrop.
+Система без теней. Глубину дают чередование Paper и Rose, фотографии и смещённые контуры бургунди. У первого портрета контур повёрнут на (4deg), на мобильном (7deg); у фотографии знакомства — (-4deg). На мобильном контур первого портрета имеет inset (10px -1px -21px 13px), рамка фотографии — нижний padding (12px), визуальный блок — padding справа (18px) и снизу (24px). Подпись портрета выведена поверх контура (position: relative; z-index: 1; display: table), с прозрачным фоном, padding (2px 0) и margin-left (6px), чтобы контур оставался непрерывным. Модальный просмотр отделён затемнённым backdrop.
 
 Деликатный белый отблеск светло-серого фона статичен: body использует radial-gradient(ellipse at 18% 8%, rgb(255 255 255 / .85), transparent 58%) и linear-gradient(115deg, transparent 25%, rgb(255 255 255 / .42) 48%, transparent 73%) поверх Paper. На широком экране background-attachment: fixed; до (760px) — scroll, background-size: 100% 100vh и background-repeat: no-repeat. Анимации сияния нет. Native элементы используют color-scheme: light.
 
