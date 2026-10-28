@@ -46,3 +46,11 @@
 - assets/images/case-evening-2.jpg — User supplied photograph: C:\Users\tsar\Desktop\фото Лера\IMG_0791.JPG; JPEG quality 90; maximum dimension 1800px; no retouching
 - assets/images/case-evening-3.jpg — User supplied photograph: C:\Users\tsar\Desktop\фото Лера\IMG_0220.jpg; JPEG quality 90; maximum dimension 1800px; no retouching
 - assets/images/case-evening-4.jpg — User supplied photograph: C:\Users\tsar\Desktop\фото Лера\IMG_0222.jpg; JPEG quality 90; maximum dimension 1800px; no retouching
+
+## Обновлённые обрезанные отзывы — 28 октября 2026
+
+- assets/images/review-personal-cropped.jpg — photo_2026-08-17_11-04-10.jpg из папки пользователя «фото Лера»; скопирован без дополнительного сжатия и обработки.
+- assets/images/review-wedding-cropped.jpg — photo_2026-08-17_11-04-10 (2).jpg из папки пользователя «фото Лера»; скопирован без дополнительного сжатия и обработки.
+- assets/images/review-photo-cropped.jpg — photo_2026-08-17_11-04-11.jpg из папки пользователя «фото Лера»; скопирован без дополнительного сжатия и обработки.
+- assets/images/review-look-cropped.jpg — photo_2026-08-17_11-04-12 (2).jpg из папки пользователя «фото Лера»; скопирован без дополнительного сжатия и обработки.
+- assets/images/review-lasting-cropped.jpg — photo_2026-08-17_11-04-13.jpg из папки пользователя «фото Лера»; скопирован без дополнительного сжатия и обработки.
