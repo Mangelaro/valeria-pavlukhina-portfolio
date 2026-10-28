@@ -126,3 +126,9 @@ html{color-scheme:light}.button-solid,.mobile-booking,.skip-link{background:var(
 .portrait-frame figcaption{margin-top:20px}
 .heart-hero{left:-160px;right:auto;bottom:48px;width:76px;height:100px;transform:rotate(-14deg)}
 @media(max-width:760px){.portrait-frame{padding-bottom:0}.portrait-photo::before{inset:8px -8px 0 8px;transform:rotate(4deg)}.portrait-frame figcaption{margin-top:12px}.heart-hero{left:calc(-100% + 24px);right:auto;bottom:30px;width:58px;height:78px}}
+
+/* About frame sits behind its own photograph, independently of the caption. */
+.about-image::before{content:none}
+.about-photo{position:relative;isolation:isolate}
+.about-photo::before{content:"";position:absolute;inset:12px -8px 0 8px;border:1px solid var(--wine);transform:rotate(-4deg);z-index:-1;pointer-events:none}
+.service-photo>p{margin-top:22px;transform-origin:top right}
