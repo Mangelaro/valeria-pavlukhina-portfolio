@@ -1,0 +1,5 @@
+{
+  "origin": "imagegen; cosmetic lipstick decoration requested by user",
+  "prompt": "Generate one isolated hand-drawn HEART OUTLINE made with a real burgundy lipstick, true transparent background. An elegant imperfect casual heart drawn in two sweeping gestures, slightly asymmetric and naturally tilted, narrow and elongated rather than wide. Cosmetic wax pigment in deep burgundy close to #862d3b with fine waxy grain and broken tiny streaks at the edges, mostly matte. The line is medium thickness, roughly 8 percent of total heart width, dense enough to stay visible when displayed at 50px. Hollow heart center is fully transparent. Flat frontal scan, no perspective, no shadow, no lighting background. No filled heart, no emoji, no vector perfection, no extra objects, no lips, no lipstick tube, no text. One single heart only, centered with modest transparent margins, every edge visible. This is a decorative cutout for an editorial makeup artist portfolio.",
+  "processing": "Trim transparent bounds; resize max320x420; WebPquality92 alpha preserved; prompt embedded in EXIF"
+}
