@@ -93,3 +93,8 @@ html{color-scheme:light}.button-solid,.mobile-booking,.skip-link{background:var(
 .service-description-body{padding-bottom:10px}
 .service-description-body>p:first-child{margin-top:0}
 .service-description+.service-link,.service .service-description+.text-link{margin-top:4px}
+
+.contact-buttons{display:grid;grid-template-columns:repeat(3,minmax(0,1fr))}
+.contact-buttons .button{gap:12px}
+@media(max-width:1100px){.contact-buttons{grid-template-columns:1fr;max-width:320px}}
+@media(max-width:760px){.contact-buttons{max-width:100%}}
