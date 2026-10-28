@@ -1,0 +1,5 @@
+{
+  "origin": "imagegen; lipstick question mark for the empty sixth polaroid requested by user",
+  "prompt": "One single hand-drawn QUESTION MARK made with real burgundy lipstick, isolated on true transparent background. Editorial cosmetic wax texture, rich dark burgundy pigment matching #862d3b. An expressive graceful curved question mark with a separate lipstick dot underneath, drawn casually by hand, slightly imperfect edges and streaks, medium-thick stroke. Strong clear punctuation shape, upright portrait composition, not an icon with a surrounding shape. Flat frontal view, completely transparent everywhere except the lipstick pigment, including holes and margins. Matte finish with fine natural wax grain. No text except this one question mark, no photo, no shadows, no objects, no border, no background. All edges visible with modest clear margins. Matches handmade lipstick hearts in an elegant makeup artist portfolio.",
+  "processing": "Alpha bounds trimmed; resized max360x540; WebP92 alpha preserved; prompt embedded in EXIF"
+}

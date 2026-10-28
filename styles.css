@@ -151,3 +151,8 @@ html{color-scheme:light}.button-solid,.mobile-booking,.skip-link{background:var(
 .polaroid-title{font-size:20px;line-height:1.5;white-space:nowrap;text-align:left;overflow-wrap:normal}
 .gallery .zoom-label{align-self:center;flex-shrink:0;gap:6px}
 @media(max-width:760px){.polaroid-footer{min-height:48px;padding:9px 0 12px;gap:4px}.polaroid-title{font-size:clamp(10px,2.8vw,16px)}.gallery .zoom-label{font-size:8px;gap:4px;min-height:20px}.gallery .zoom-label .icon-arrow{width:10px;height:10px}}
+
+/* The sixth print invites the visitor to become the next portfolio story. */
+.invitation-image{display:grid;place-items:center;width:100%;aspect-ratio:3/4;background:var(--paper)}
+.gallery .work .invitation-image img{width:48%;height:auto;max-height:68%;aspect-ratio:auto;object-fit:contain;transform:rotate(-7deg)}
+.gallery .invitation-link:hover .invitation-image img{transform:rotate(-7deg)}

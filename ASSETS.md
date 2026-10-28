@@ -62,3 +62,7 @@ assets/images/lipstick-swatch-burgundy.webp — создан imagegen по за�
 ## Помадные сердечки — 28 октября 2026
 
 assets/images/lipstick-heart-burgundy.webp — создано imagegen по запросу пользователя; прозрачный фон, промпт в EXIF и соседнем JSON. Используется как декоративный фон, не меняет фотографии.
+
+## Вопросительный знак для шестого полароида — 28 октября 2026
+
+assets/images/lipstick-question-burgundy.webp — создан imagegen, прозрачный фон; точный промпт в EXIF и соседнем JSON.
