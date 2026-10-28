@@ -145,3 +145,9 @@ html{color-scheme:light}.button-solid,.mobile-booking,.skip-link{background:var(
 .gallery .image-button:hover .zoom-label{text-decoration:underline;text-underline-offset:4px}
 @media(max-width:760px){.gallery .work{padding:8px 8px 0}.gallery .work:nth-child(2n){margin-top:32px}.gallery .work:nth-child(2n+1){margin-top:0}.polaroid-footer{min-height:94px;padding:10px 2px 12px;gap:5px}.polaroid-title{font-size:18px;line-height:1.45}.gallery .zoom-label{font-size:10px;gap:7px}}
 @media(max-width:370px){.polaroid-title{font-size:17px}}
+
+/* Keep handwritten captions and the gallery action on one compact line. */
+.polaroid-footer{flex-direction:row;justify-content:space-between;gap:10px;min-height:64px;padding:12px 4px 16px}
+.polaroid-title{font-size:20px;line-height:1.5;white-space:nowrap;text-align:left;overflow-wrap:normal}
+.gallery .zoom-label{align-self:center;flex-shrink:0;gap:6px}
+@media(max-width:760px){.polaroid-footer{min-height:48px;padding:9px 0 12px;gap:4px}.polaroid-title{font-size:clamp(10px,2.8vw,16px)}.gallery .zoom-label{font-size:8px;gap:4px;min-height:20px}.gallery .zoom-label .icon-arrow{width:10px;height:10px}}
