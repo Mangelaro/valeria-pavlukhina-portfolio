@@ -98,3 +98,11 @@ html{color-scheme:light}.button-solid,.mobile-booking,.skip-link{background:var(
 .contact-buttons .button{gap:12px}
 @media(max-width:1100px){.contact-buttons{grid-template-columns:1fr;max-width:320px}}
 @media(max-width:760px){.contact-buttons{max-width:100%}}
+
+/* Pigmented lipstick swatches echo the supplied makeup reference. */
+.service-top{align-items:center}
+.service .price{position:relative;isolation:isolate;display:inline-flex;align-items:center;justify-content:center;flex-shrink:0;min-width:128px;padding:11px 18px;line-height:1.2;font-weight:600;color:var(--paper)}
+.service .price::before{content:"";position:absolute;inset:0 -5px;z-index:-1;background:url('assets/images/lipstick-swatch-burgundy.webp') center/100% 100% no-repeat;transform:rotate(-3deg)}
+.service:nth-child(even) .price::before{transform:rotate(2deg) scaleX(-1)}
+@media(max-width:760px){.service .price{min-width:112px;padding:10px 16px}.service-top h3{min-width:0;max-width:none}}
+@media(max-width:370px){.service .price{min-width:104px;padding-inline:14px}}

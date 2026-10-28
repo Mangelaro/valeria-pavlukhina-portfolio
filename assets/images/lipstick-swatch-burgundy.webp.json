@@ -1,0 +1,6 @@
+{
+  "origin": "Generated with imagegen for this portfolio; inspired by user supplied makeup site reference",
+  "prompt": "Create a single isolated cosmetic lipstick swatch for use as a website price-label background. Transparent background (true alpha). One broad horizontal swipe of richly pigmented matte burgundy lipstick, color very close to hex #862d3b. Wide and low shape approximately 4.5:1 width to height. Organic slightly asymmetric frayed edges with fine lipstick streaks at the two ends, dense opaque solid dark burgundy center occupying at least 80% of the stroke width and 70% of height so pale price text can be overlaid legibly. Tangible waxy lipstick texture, subtle dense pigment ridges, minimal shine, elegant editorial cosmetics photography. Nearly level orientation, not diagonal. The entire stroke visible with small transparent margin. No text, no digits, no lipstick tube, no shadows, no other objects, no white background.",
+  "source": "exec-8447a7b9-d5b2-43e2-953f-612202031d2f.png",
+  "processing": "Transparent bounds trimmed, resized to640px wide, WebP quality90; alpha retained"
+}
