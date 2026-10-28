@@ -80,3 +80,16 @@ html{color-scheme:light}.button-solid,.mobile-booking,.skip-link{background:var(
 @media(max-width:760px){.service-steps{font-size:11px}}
 
 .price-footnote{font-size:.6em;line-height:0;vertical-align:super;margin-left:2px}
+
+/* Service descriptions stay collapsed until the visitor requests details. */
+.service-description{margin-top:8px}
+.service-description>summary{display:inline-flex;align-items:center;gap:10px;min-height:44px;padding:8px 0;cursor:pointer;color:var(--wine);font-size:12px;list-style:none}
+.service-description>summary::-webkit-details-marker{display:none}
+.service-description>summary:hover{text-decoration:underline;text-underline-offset:4px}
+.details-chevron{width:16px;height:16px;fill:none;stroke:currentColor;stroke-width:1.35;stroke-linecap:round;stroke-linejoin:round}
+.service-description[open] .details-chevron{transform:rotate(180deg)}
+.details-hide,.service-description[open] .details-show{display:none}
+.service-description[open] .details-hide{display:inline}
+.service-description-body{padding-bottom:10px}
+.service-description-body>p:first-child{margin-top:0}
+.service-description+.service-link,.service .service-description+.text-link{margin-top:4px}
